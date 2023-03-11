@@ -1,0 +1,65 @@
+
+h1 {
+    background-color: rgb(43, 47, 71);
+    color:red
+}
+
+/* p {
+    background-color: green;
+    color: black;
+} */
+
+/* *{
+    padding: 0%;(relleno)
+    margin: ;(Margen)
+} */
+
+/* Selector de tipo */
+main {
+    border: 2px dotted purple;
+}
+
+/* Selector por ID */
+#info {
+    border-bottom: 5px groove green;
+}
+
+/* Seelector de clase */
+.titulo {
+    background-color: coral;
+    color: black;
+    box-shadow: 10px 5px 5px blueviolet;
+}
+
+/* Selector de clase dce un tag en particular */
+h3.titulo {
+    font-size: 50px;
+}
+
+/* Selector por atributo. NO importa el valor que tenga el atributo */
+p[lang=es-mx]{
+    background-color: cornflowerblue;
+}
+
+/* Selector por atributo.Bscando un texto al final*/
+a[href^="ftp"]{
+    background-color: brown;
+}
+
+a[href*="pagina"]{
+    font-size: 45px;
+}
+
+[class~="round"]{
+    border: 3px     solid blue;
+    border-radius: 5px;
+}
+
+a, .titulo, [lang]{
+    color: blue;
+}
+
+/* selector de desendientes */
+h3 + p {
+    background-color: aqua;
+}
